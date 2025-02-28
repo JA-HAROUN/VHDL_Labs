@@ -1,9 +1,34 @@
-{D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Half_Adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Half_Adder.vhd}
+{D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/TestRippleAdder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/TestRippleAdder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity HA
--- Compiling architecture ADD_HALF of HA
+-- Loading package NUMERIC_STD
+-- Compiling entity test_Ripple
+-- Compiling architecture tbRippleAdder of test_Ripple
+
+} {} {}} {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/4bit_ripple.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/4bit_ripple.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RippleAdder
+-- Compiling architecture ADD_RIPPLE of RippleAdder
+
+} {} {}} {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Full_Adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Full_Adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Full_Adder
+-- Compiling architecture ADD_FULL of Full_Adder
+
+} {} {}} {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Half_Adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Half_Adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity HALF_ADDER
+-- Compiling architecture ADD_HALF of HALF_ADDER
 
 } {} {}}

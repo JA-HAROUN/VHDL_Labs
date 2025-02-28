@@ -1,18 +1,16 @@
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
-LIBRARY work;
-USE work.ALL;
 
-ENTITY Full_Adder IS
+ENTITY FA IS
     PORT (
         A_2, B_2, Cin_2 : IN STD_LOGIC;
         Sum_2, Cout_2 : OUT STD_LOGIC
     );
-END Full_Adder;
+END FA;
 
-ARCHITECTURE ADD_FULL OF Full_Adder IS
+ARCHITECTURE ADD_FULL OF FA IS
 
-    COMPONENT HALF_ADDER
+    COMPONENT HA
         PORT (
             A_1 : IN STD_LOGIC;
             B_1 : IN STD_LOGIC;
@@ -25,10 +23,10 @@ ARCHITECTURE ADD_FULL OF Full_Adder IS
 
 BEGIN
     -- First half adder
-    HA1 : HALF_ADDER PORT MAP(A_2, B_2, S1, C1);
+    HA1 : HA PORT MAP(A_2, B_2, S1, C1);
 
     -- Second half adder [Get the sum]
-    HA2 : HALF_ADDER PORT MAP(S1, Cin_2, Sum_2, C2);
+    HA2 : HA PORT MAP(S1, Cin_2, Sum_2, C2);
 
     -- Get the final carry out
     Cout_2 <= C1 OR C2;
