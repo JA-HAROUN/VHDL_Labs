@@ -43,11 +43,8 @@ ENTITY Rippleadder IS
 END Rippleadder;
 
 ARCHITECTURE implRippleadder OF Rippleadder IS
-    COMPONENT fulladder
-        PORT (
-            A, B, Cin : IN STD_LOGIC;
-            S, Cout : OUT STD_LOGIC
-        );
+    COMPONENT fulladder PORT (A, B, Cin : IN STD_LOGIC;
+        S, Cout : OUT STD_LOGIC);
     END COMPONENT;
     SIGNAL carry : STD_LOGIC_VECTOR (3 DOWNTO 1);
 BEGIN

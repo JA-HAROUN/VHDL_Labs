@@ -9,37 +9,37 @@ z2
 !i10f 100
 cModel Technology
 dC:/intelFPGA/20.1
-Efa
-Z0 w1740579968
+Efulladder
+Z0 w1740933114
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 55
+!i122 1
 Z3 dD:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1
-Z4 8D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Full_Adder.vhd
-Z5 FD:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Full_Adder.vhd
+Z4 8D:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ripple_adder.vhd
+Z5 FD:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ripple_adder.vhd
 l0
-L6 1
-V0zYoa3HBSHSn`jo@`S3Yd0
-!s100 MEI_TY31h8J5a[=4hZni[0
+L18 1
+VH;G8]82go1YM<N[a3l=WS1
+!s100 B]jbV3GCmDIXP=eK;C]o=1
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1740769539
+Z7 !s110 1740935302
 !i10b 1
-Z8 !s108 1740769539.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Full_Adder.vhd|
-Z10 !s107 D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Full_Adder.vhd|
+Z8 !s108 1740935302.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ripple_adder.vhd|
+Z10 !s107 D:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ripple_adder.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
-Aadd_full
+Aimplfulladder
 R1
 R2
-DEx4 work 2 fa 0 22 0zYoa3HBSHSn`jo@`S3Yd0
-!i122 55
-l26
-Z13 L13 24
-Vhk3iXz^ME_^L0MKGDbkNL3
-!s100 gaRU^NnKnO=ojYJ0065GV0
+DEx4 work 9 fulladder 0 22 H;G8]82go1YM<N[a3l=WS1
+!i122 1
+l28
+L23 10
+VCGnVbQR:bUZLn`JOT5n@I3
+!s100 KJ=ABif^ePd9Wmf_mKRZh2
 R6
 32
 R7
@@ -50,339 +50,210 @@ R10
 !i113 1
 R11
 R12
-Efull_adder
-Z14 w1740772273
+Ehalfadder
+R0
 R1
 R2
-!i122 77
+!i122 1
 R3
 R4
 R5
 l0
-L6 1
-V6C5WJ:09[kVVfo[_N9RI40
-!s100 ModUh1o8E7XAK_F@cef[l2
+L4 1
+Vl4NnnIE:ne4z<mLH5WWOR1
+!s100 mob2MLaNaOA4`=`9Ok1750
 R6
 32
-Z15 !s110 1740773898
+R7
 !i10b 1
-Z16 !s108 1740773898.000000
+R8
 R9
 R10
 !i113 1
 R11
 R12
-Aadd_full
+Aimplhalfadder
 R1
 R2
-DEx4 work 10 full_adder 0 22 6C5WJ:09[kVVfo[_N9RI40
-!i122 77
-l26
-R13
-VPY9bnVZkCh9VMVBHfVE`k1
-!s100 HYQlJkGCA3D55feSZ<Oe01
+DEx4 work 9 halfadder 0 22 l4NnnIE:ne4z<mLH5WWOR1
+!i122 1
+l10
+L9 5
+V=[:BAK4dAOD1Ka`oJE[RS2
+!s100 ;a=KOM5AUbCZ]:;[cD]2i3
 R6
 32
-R15
+R7
 !i10b 1
-R16
+R8
 R9
 R10
-!i113 1
-R11
-R12
-Eha
-Z17 w1740573714
-R1
-R2
-!i122 56
-R3
-Z18 8D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Half_Adder.vhd
-Z19 FD:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Half_Adder.vhd
-l0
-L4 1
-VlI0]>Ob?:o[5Y:mBOCR_C0
-!s100 QQY1eP3B09H[492hSi1J^1
-R6
-32
-Z20 !s110 1740769540
-!i10b 1
-Z21 !s108 1740769540.000000
-Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Half_Adder.vhd|
-Z23 !s107 D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Half_Adder.vhd|
-!i113 1
-R11
-R12
-Aadd_half
-R1
-R2
-DEx4 work 2 ha 0 22 lI0]>Ob?:o[5Y:mBOCR_C0
-!i122 56
-l14
-Z24 L13 5
-VE@@K11zzGi8E=OFmN;YnO2
-!s100 VM3E3Z5LZ@SQY=2hk48422
-R6
-32
-R20
-!i10b 1
-R21
-R22
-R23
-!i113 1
-R11
-R12
-Ehalf_adder
-Z25 w1740771941
-R1
-R2
-!i122 76
-R3
-R18
-R19
-l0
-L4 1
-V=hcPR95cD;NPda>YEW]2F1
-!s100 18PkWX[j8haR?o`6OYQVA0
-R6
-32
-R15
-!i10b 1
-R16
-R22
-R23
-!i113 1
-R11
-R12
-Aadd_half
-R1
-R2
-DEx4 work 10 half_adder 0 22 =hcPR95cD;NPda>YEW]2F1
-!i122 76
-l14
-R24
-VchmGafB3@f=<SnRZ4RAg[3
-!s100 nk2YC6>nSVMNAL?PP9d;:3
-R6
-32
-R15
-!i10b 1
-R16
-R22
-R23
 !i113 1
 R11
 R12
 Erippleadder
-Z26 w1740773173
+R0
 R1
 R2
-!i122 78
+!i122 1
 R3
-Z27 8D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/4bit_ripple.vhd
-Z28 FD:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/4bit_ripple.vhd
+R4
+R5
 l0
-L6 1
-VR:6L10M[d[Q4`jL;LP=_a1
-!s100 3idm59R=LRhfXaOfe`4YR1
+L37 1
+V@`2V7cioF^cR08I>cE?X?2
+!s100 LX<1g<CLzb_MFnN3K5l`D0
 R6
 32
-R15
+R7
 !i10b 1
-R16
-Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/4bit_ripple.vhd|
-Z30 !s107 D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/4bit_ripple.vhd|
+R8
+R9
+R10
 !i113 1
 R11
 R12
-Aadd_ripple
+Aimplrippleadder
 R1
 R2
-DEx4 work 11 rippleadder 0 22 R:6L10M[d[Q4`jL;LP=_a1
-!i122 78
-l27
-L16 19
-V=e>YPYA7hYj3K?V9]jT`21
-!s100 o^:0;5fS48Xegn^eJoCVJ2
+DEx4 work 11 rippleadder 0 22 @`2V7cioF^cR08I>cE?X?2
+!i122 1
+l53
+L45 14
+VBM<[MnXlm?[hz7]1bEKN02
+!s100 d[=1IZ63<L0eNkL03KSJo1
 R6
 32
-R15
+R7
 !i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eripplesub
+Z13 w1740933116
+R1
+R2
+!i122 2
+R3
+Z14 8D:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ripple_Sub.vhd
+Z15 FD:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ripple_Sub.vhd
+l0
+L4 1
+VdUDF=>4SC1G_dPVdkj@?o0
+!s100 >PSTWFXH=cWQlNHLLHe4W0
+R6
+32
+Z16 !s110 1740935303
+!i10b 1
+Z17 !s108 1740935303.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ripple_Sub.vhd|
+Z19 !s107 D:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ripple_Sub.vhd|
+!i113 1
+R11
+R12
+Aimplripplesub
+R1
+R2
+DEx4 work 9 ripplesub 0 22 dUDF=>4SC1G_dPVdkj@?o0
+!i122 2
+l18
+Z20 L11 16
+VaAe^;3^Nko3A5:DE:4?961
+!s100 Z@K3Lk<=?n8W]RWd`CLkT1
+R6
+32
 R16
-R29
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Eripplesub_unsin
+Z21 w1740933113
+R1
+R2
+!i122 0
+R3
+Z22 8D:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ribble_Sub_unsi.vhd
+Z23 FD:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ribble_Sub_unsi.vhd
+l0
+L4 1
+VO=`knoZ9]EPGA^f5KWIdE3
+!s100 ORHnji?O`YcPQcN?>7naz0
+R6
+32
+R7
+!i10b 1
+R8
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ribble_Sub_unsi.vhd|
+Z25 !s107 D:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ribble_Sub_unsi.vhd|
+!i113 1
+R11
+R12
+Aimplripplesub_unsin
+R1
+R2
+DEx4 work 15 ripplesub_unsin 0 22 O=`knoZ9]EPGA^f5KWIdE3
+!i122 0
+l18
+R20
+VF?CBo]eLZ_QP^O>cP`6kl3
+!s100 ^DiRSJbj]zDe=zzIMM:Eg0
+R6
+32
+R7
+!i10b 1
+R8
+R24
+R25
+!i113 1
+R11
+R12
+Etestforripple
+Z26 w1740770863
+Z27 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 3
+R3
+Z28 8D:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ripple_test.vhd
+Z29 FD:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ripple_test.vhd
+l0
+L5 1
+VFXRCL1DC0XB;S`?2e1NNH0
+!s100 mPO62Qf6laLAYLN8fQam22
+R6
+32
+R16
+!i10b 1
+R17
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ripple_test.vhd|
+!s107 D:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ripple_test.vhd|
+!i113 1
+R11
+R12
+Atest
+R27
+R1
+R2
+DEx4 work 13 testforripple 0 22 FXRCL1DC0XB;S`?2e1NNH0
+!i122 3
+l18
+L8 26
+V1V075OJ<3E[SzhIjJ^^Z92
+!s100 iPbMA8LISaFgmWCnYA8=A1
+R6
+32
+R16
+!i10b 1
+R17
 R30
-!i113 1
-R11
-R12
-Etest_full_adder
-Z31 w1740772891
-Z32 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-R1
-R2
-!i122 67
-R3
-Z33 8D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Test_FA.vhd
-Z34 FD:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Test_FA.vhd
-l0
-L5 1
-V191ak8Znm9UoA>z`bWd=G0
-!s100 a]0f5dUimlioki5O1SU0P1
-R6
-32
-Z35 !s110 1740772896
-!i10b 1
-Z36 !s108 1740772896.000000
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Test_FA.vhd|
-Z38 !s107 D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Test_FA.vhd|
-!i113 1
-R11
-R12
-Acheck_full_adder
-R32
-R1
-R2
-DEx4 work 15 test_full_adder 0 22 191ak8Znm9UoA>z`bWd=G0
-!i122 67
-l20
-L8 49
-V`]nb>Cb3g21DTlT@aK81k2
-!s100 UYcj5K^Bh6NA]9320mXTc1
-R6
-32
-R35
-!i10b 1
-R36
-R37
-R38
-!i113 1
-R11
-R12
-Etest_ripple
-Z39 w1740773876
-R32
-R1
-R2
-!i122 79
-R3
-Z40 8D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/TestRippleAdder.vhd
-Z41 FD:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/TestRippleAdder.vhd
-l0
-L5 1
-VNU@KSnDe4W0lGebk>h9e42
-!s100 G[MQ>gcDYgI<IaCVLoKP`0
-R6
-32
-Z42 !s110 1740773899
-!i10b 1
-R16
-Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/TestRippleAdder.vhd|
-Z44 !s107 D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/TestRippleAdder.vhd|
-!i113 1
-R11
-R12
-Atbrippleadder
-R32
-R1
-R2
-DEx4 work 11 test_ripple 0 22 NU@KSnDe4W0lGebk>h9e42
-!i122 79
-l25
-L8 60
-VoMjBN?[gB<gkH@l[DiDf70
-!s100 >clP8[L7n4?<cfzR^WO=N0
-R6
-32
-R42
-!i10b 1
-R16
-R43
-R44
-!i113 1
-R11
-R12
-Etesthalfadder
-Z45 w1740771954
-R32
-R1
-R2
-!i122 62
-R3
-Z46 8D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Test_HA.vhd
-Z47 FD:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Test_HA.vhd
-l0
-L5 1
-Vj_jLhmS;GihC=VURMg0_G3
-!s100 :H_Q`7Ti9zcJLf1jfDUXJ0
-R6
-32
-Z48 !s110 1740771959
-!i10b 1
-Z49 !s108 1740771959.000000
-Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Test_HA.vhd|
-Z51 !s107 D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Test_HA.vhd|
-!i113 1
-R11
-R12
-Atest_ha
-R32
-R1
-R2
-DEx4 work 13 testhalfadder 0 22 j_jLhmS;GihC=VURMg0_G3
-!i122 62
-l22
-L8 46
-V;7G`V;;TWS:@5`iBFRjL;3
-!s100 Y6=U@fQXATNlE5Z?:c14m2
-R6
-32
-R48
-!i10b 1
-R49
-R50
-R51
-!i113 1
-R11
-R12
-Etestripple
-Z52 w1740760000
-R32
-R1
-R2
-!i122 57
-R3
-R40
-R41
-l0
-L5 1
-V;zLmn3QcJfZhIn;k=_a_P2
-!s100 e<;`W2?k>WincG78R7>Ll3
-R6
-32
-R20
-!i10b 1
-R21
-R43
-R44
-!i113 1
-R11
-R12
-Atbrippleadder
-R32
-R1
-R2
-DEx4 work 10 testripple 0 22 ;zLmn3QcJfZhIn;k=_a_P2
-!i122 57
-l25
-L8 39
-VlhEBI0S@fo5c[Kfdf0iI<1
-!s100 a3c_>CU@3:ze]WGkI_m@W3
-R6
-32
-R20
-!i10b 1
-R21
-R43
-R44
+Z31 !s107 D:\Engineering\Second Semester\Digital System Design II\CSED 28\Labs\Lab 1\VHDL LAB1\Final Ripple Adder\Ripple_test.vhd|
 !i113 1
 R11
 R12
