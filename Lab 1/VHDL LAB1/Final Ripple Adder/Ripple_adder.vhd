@@ -1,55 +1,45 @@
-LIBRARY ieee;
-USE ieee.std_logic_1164.ALL;
+library ieee;
+use ieee.std_logic_1164.all ;
 
-ENTITY halfadder IS
-    PORT (
-        A, B : IN STD_LOGIC;
-        S, Cout : OUT STD_LOGIC);
-END halfadder;
-ARCHITECTURE implhalfadder OF halfadder IS
-BEGIN
-    S <= A XOR B;
-    Cout <= A AND B;
-END implhalfadder;
+entity halfadder is
+    port(A,B : in std_logic ; S,Cout : out std_logic) ;
+    end halfadder ;
+architecture implhalfadder of halfadder is
+    begin 
+    S <= A xor B ;
+    Cout <= A and B ;
+    end implhalfadder ;
 
-LIBRARY ieee;
-USE ieee.std_logic_1164.ALL;
+library ieee;
+use ieee.std_logic_1164.all ;
 
-ENTITY fulladder IS
-    PORT (
-        A, B, Cin : IN STD_LOGIC;
-        S, Cout : OUT STD_LOGIC);
-END fulladder;
-ARCHITECTURE implfulladder OF fulladder IS
-    COMPONENT halfadder PORT (A, B : IN STD_LOGIC;
-        S, Cout : OUT STD_LOGIC);
-    END COMPONENT;
-    SIGNAL insum, incarry1, incarry2 : STD_LOGIC;
-BEGIN
-    H1 : halfadder PORT MAP(A, B, insum, incarry1);
-    H2 : halfadder PORT MAP(insum, Cin, S, incarry2);
-    Cout <= incarry1 OR incarry2;
-END implfulladder;
+entity fulladder is 
+    port(A,B,Cin : in std_logic ; S,Cout : out std_logic) ;
+    end fulladder ;
+architecture implfulladder of fulladder is 
+    component halfadder port(A,B : in std_logic ; S,Cout : out std_logic) ;
+    end component ;
+    signal insum,incarry1,incarry2 : std_logic ;
+    begin
+        H1 : halfadder port map(A,B,insum,incarry1) ;
+        H2 : halfadder port map(insum,Cin,S,incarry2) ;
+        Cout <= incarry1  or incarry2 ;
+    end implfulladder ;
 
-LIBRARY ieee;
-USE ieee.std_logic_1164.ALL;
+library ieee;
+use ieee.std_logic_1164.all ;
 
-ENTITY Rippleadder IS
-    PORT (
-        A, B : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-        Cin : IN STD_LOGIC;
-        Sum : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
-        Cout : OUT STD_LOGIC);
-END Rippleadder;
+entity Rippleadder is
+    port(A,B : in std_logic_vector(3 downto 0) ; Cin : in std_logic ; Sum : out std_logic_vector(3 downto 0) ; Cout : out std_logic) ;
+end Rippleadder ;
 
-ARCHITECTURE implRippleadder OF Rippleadder IS
-    COMPONENT fulladder PORT (A, B, Cin : IN STD_LOGIC;
-        S, Cout : OUT STD_LOGIC);
-    END COMPONENT;
-    SIGNAL carry : STD_LOGIC_VECTOR (3 DOWNTO 1);
-BEGIN
-    F1 : Fulladder PORT MAP(a(0), b(0), cin, sum(0), carry(1));
-    F2 : Fulladder PORT MAP(a(1), b(1), carry(1), sum(1), carry(2));
-    F3 : Fulladder PORT MAP(a(2), b(2), carry(2), sum(2), carry(3));
-    F4 : Fulladder PORT MAP(a(3), b(3), carry(3), sum(3), cout);
-END implRippleadder;
+architecture implRippleadder of Rippleadder is
+    component fulladder port(A,B,Cin : in std_logic ; S,Cout : out std_logic) ;
+    end component ;
+    signal carry : std_logic_vector (3 downto 1) ;
+    begin
+        F1 : Fulladder port map (a(0),b(0),cin,sum(0),carry(1)) ; 
+        F2 : Fulladder port map (a(1),b(1),carry(1),sum(1),carry(2)) ; 
+        F3 : Fulladder port map (a(2),b(2),carry(2),sum(2),carry(3)) ; 
+        F4 : Fulladder port map (a(3),b(3),carry(3),sum(3),cout) ;
+    end implRippleadder ;
