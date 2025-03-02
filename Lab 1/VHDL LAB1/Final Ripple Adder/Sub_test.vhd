@@ -20,9 +20,9 @@ wait for 10 ps ;
 loop_2 :for i in 0 to 15 loop
 A <= std_logic_vector(unsigned(A) + 1);
 wait for 10 ps ;
-check <= to_integer(signed(A)) + to_integer(signed(B)) ;
+check <= to_integer(signed(A)) - to_integer(signed(B)) ;
 wait for 10 ps ;
-if std_logic_vector(to_unsigned(check,4)) /= diff then
+if std_logic_vector(to_signed(check,4)) /= diff then
 report "Wrong Result" ;
 end if ;
 wait for 10 ps ;
