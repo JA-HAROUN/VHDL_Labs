@@ -1,25 +1,125 @@
-# Compile of Ribble_Sub_unsi.vhd was successful.
-# Compile of Ripple_adder.vhd was successful.
-# Compile of Ripple_Sub.vhd was successful.
-# Compile of Ripple_test.vhd was successful.
-# 4 compiles, 0 failed with no errors.
-# Load canceled
-# Compile of Ribble_Sub_unsi.vhd was successful.
-# Compile of Ripple_adder.vhd was successful.
-# Compile of Ripple_Sub.vhd was successful.
-# Compile of Ripple_test.vhd was successful.
-# 4 compiles, 0 failed with no errors.
-# Compile of Ribble_Sub_unsi.vhd was successful.
-# Compile of Ripple_adder.vhd was successful.
-# Compile of Ripple_Sub.vhd was successful.
-# Compile of Ripple_test.vhd was successful.
-# 4 compiles, 0 failed with no errors.
-vsim -gui work.rippleadder
-# vsim -gui work.rippleadder 
-# Start time: 19:08:51 on Mar 02,2025
+vsim -gui work.test_full_adder
+# vsim -gui work.test_full_adder 
+# Start time: 20:58:27 on Mar 02,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.rippleadder(implrippleadder)
-# Loading work.fulladder(implfulladder)
-# Loading work.halfadder(implhalfadder)
+# Loading ieee.numeric_std(body)
+# Loading work.test_full_adder(check_full_adder)
+# Loading work.full_adder(add_full)
+# Loading work.half_adder(add_half)
+add wave -position insertpoint  \
+sim:/test_full_adder/A \
+sim:/test_full_adder/B \
+sim:/test_full_adder/Cin \
+sim:/test_full_adder/S \
+sim:/test_full_adder/Cout
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+quit -sim
+# End time: 21:08:07 on Mar 02,2025, Elapsed time: 0:09:40
+# Errors: 0, Warnings: 1
+# Compile of Half_Adder.vhd was successful.
+# Compile of Test_HA.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.test_half_adder
+# vsim -gui work.test_half_adder 
+# Start time: 21:09:04 on Mar 02,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test_half_adder(test_ha)
+# Loading work.half_adder(add_half)
+run
+run
+run
+add wave -position insertpoint  \
+sim:/test_half_adder/A \
+sim:/test_half_adder/B \
+sim:/test_half_adder/S \
+sim:/test_half_adder/Cout
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+# End time: 21:14:15 on Mar 02,2025, Elapsed time: 0:05:11
+# Errors: 0, Warnings: 1
