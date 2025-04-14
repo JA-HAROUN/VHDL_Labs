@@ -6,6 +6,54 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity HALF_ADDER
 -- Compiling architecture ADD_HALF of HALF_ADDER
 
+} {} {}} {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Full Adder/Full_Adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Full Adder/Full_Adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity HALF_ADDER
+-- Compiling architecture ADD_HALF of HALF_ADDER
+-- Compiling entity Full_Adder
+-- Compiling architecture ADD_FULL of Full_Adder
+
+} {} {}} {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Full Adder/Test_FA.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Full Adder/Test_FA.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity test_Full_Adder
+-- Compiling architecture check_Full_Adder of test_Full_Adder
+
+} {} {}} {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Final Ripple Adder/Ribble_Sub_unsi.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Final Ripple Adder/Ribble_Sub_unsi.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Ripplesub_unsin
+-- Compiling architecture implRipplesub_unsin of Ripplesub_unsin
+
+} {} {}} {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Final Ripple Adder/Ripple_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Final Ripple Adder/Ripple_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity halfadder
+-- Compiling architecture implhalfadder of halfadder
+-- Compiling entity fulladder
+-- Compiling architecture implfulladder of fulladder
+-- Compiling entity Rippleadder
+-- Compiling architecture implRippleadder of Rippleadder
+
+} {} {}} {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Final Ripple Adder/Ripple_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Final Ripple Adder/Ripple_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity testforripple
+-- Compiling architecture test of testforripple
+
 } {} {}} {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Half Adder/Test_HA.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Half Adder/Test_HA.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -14,5 +62,22 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity test_Half_Adder
 -- Compiling architecture test_HA of test_Half_Adder
+
+} {} {}} {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Final Ripple Adder/Ripple_Sub.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Final Ripple Adder/Ripple_Sub.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Ripplesub
+-- Compiling architecture implRipplesub of Ripplesub
+
+} {} {}} {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Final Ripple Adder/Sub_test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 1/VHDL LAB1/Final Ripple Adder/Sub_test.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity testforripplesub
+-- Compiling architecture test of testforripplesub
 
 } {} {}}
