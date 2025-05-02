@@ -1,4 +1,12 @@
-{D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 2/DFlipFlop.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 2/DFlipFlop.vhd}
+{D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 2/EvenOddTB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 2/EvenOddTB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity EvenOddTestbench
+-- Compiling architecture implementation of EvenOddTestbench
+
+} {} {}} {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 2/DFlipFlop.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 2/DFlipFlop.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -19,8 +27,8 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity test_counter
--- Compiling architecture test of test_counter
+-- Compiling entity EvenOddCounter
+-- Compiling architecture Implementation of EvenOddCounter
 
 } {} {}} {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 2/4to1_MUX.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 2/4to1_MUX.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -38,12 +46,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity GatedDLatch
 -- Compiling architecture Implementation of GatedDLatch
 
-} {} {}} {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 2/clk.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 2/clk.vhd}
+} {} {}} {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 2/FlipFlopTB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 2/FlipFlopTB.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity Clk
--- Compiling architecture behavior of Clk
+-- Loading package MATH_REAL
+-- Compiling entity FFTB
+-- Compiling architecture implementation of FFTB
 
 } {} {}}

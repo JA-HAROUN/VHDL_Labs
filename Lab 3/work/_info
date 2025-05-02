@@ -1,0 +1,298 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3
+Edflipflop
+Z1 w1742343645
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 66
+R0
+Z4 8D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/DFlipFlop.vhd
+Z5 FD:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/DFlipFlop.vhd
+l0
+L4 1
+V2kL363ZKY:6b;feUa9i;G2
+!s100 hFnHA1o4PG5h<XdS0^j042
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1746210430
+!i10b 1
+Z8 !s108 1746210429.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/DFlipFlop.vhd|
+Z10 !s107 D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/DFlipFlop.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aimplementation
+R2
+R3
+DEx4 work 9 dflipflop 0 22 2kL363ZKY:6b;feUa9i;G2
+!i122 66
+l27
+L14 18
+V=m>A;0Y[88<eknmZH7mg01
+!s100 M^18hz2c_9lIhzdlRj<SF0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Egateddlatch
+Z13 w1746185809
+R2
+R3
+!i122 67
+R0
+Z14 8D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/GatedDLatche.vhd
+Z15 FD:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/GatedDLatche.vhd
+l0
+L4 1
+VhoZ65Jk5Sf0OQ3m]dK2O23
+!s100 5d5gzmzB=Jz<h:9GUP>ai3
+R6
+32
+R7
+!i10b 1
+Z16 !s108 1746210430.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/GatedDLatche.vhd|
+Z18 !s107 D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/GatedDLatche.vhd|
+!i113 1
+R11
+R12
+Aimplementation
+R2
+R3
+DEx4 work 11 gateddlatch 0 22 hoZ65Jk5Sf0OQ3m]dK2O23
+!i122 67
+l16
+L13 10
+Va9lSHOLn0YZ>03n7h^7`n1
+!s100 k:5acdO:>nCdUni;5z8YH2
+R6
+32
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Emealysequential
+Z19 w1746203193
+R2
+R3
+!i122 70
+R0
+Z20 8D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/MealyCiruit.vhd
+Z21 FD:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/MealyCiruit.vhd
+l0
+L4 1
+VVbRc0K=ANJiBO8g[W:?UI1
+!s100 :RN3D0eB1D]7_MY1kz<1e3
+R6
+32
+R7
+!i10b 1
+R16
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/MealyCiruit.vhd|
+Z23 !s107 D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/MealyCiruit.vhd|
+!i113 1
+R11
+R12
+Aimplementation
+R2
+R3
+DEx4 work 15 mealysequential 0 22 VbRc0K=ANJiBO8g[W:?UI1
+!i122 70
+l26
+Z24 L12 26
+VMB_hJoO3am[[YgOZ[@DoA1
+!s100 bm03Ve3;7gVNhGmH08On>2
+R6
+32
+R7
+!i10b 1
+R16
+R22
+R23
+!i113 1
+R11
+R12
+Emealysequntial
+Z25 w1746186125
+R2
+R3
+!i122 17
+R0
+R20
+R21
+l0
+L4 1
+V:IjOCXE;`k1M]o>BLTP=m2
+!s100 PFjioJN_RzE_06CPh3IUc0
+R6
+32
+Z26 !s110 1746202132
+!i10b 1
+Z27 !s108 1746202132.000000
+R22
+R23
+!i113 1
+R11
+R12
+Aimplementation
+R2
+R3
+DEx4 work 14 mealysequntial 0 22 :IjOCXE;`k1M]o>BLTP=m2
+!i122 17
+l26
+R24
+VlEGj<_d]a=FHeeRKUzJAD0
+!s100 gJO0B]h9JFPReRY213J;T0
+R6
+32
+R26
+!i10b 1
+R27
+R22
+R23
+!i113 1
+R11
+R12
+Emooresequential
+Z28 w1746207264
+R2
+R3
+!i122 68
+R0
+Z29 8D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/MainCircuit.vhd
+Z30 FD:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/MainCircuit.vhd
+l0
+L4 1
+VZ6N]C4WL[=5[VOXgaJKX`1
+!s100 cMUNkcZj6D8kzEKf8HmbU1
+R6
+32
+R7
+!i10b 1
+R16
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/MainCircuit.vhd|
+Z32 !s107 D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/MainCircuit.vhd|
+!i113 1
+R11
+R12
+Aimplementation
+R2
+R3
+DEx4 work 15 mooresequential 0 22 Z6N]C4WL[=5[VOXgaJKX`1
+!i122 68
+l27
+L12 30
+V:J`:2Q][8]QnK_GE>oTRG3
+!s100 ha:5Z7DPF=fV9K`WWA3P]3
+R6
+32
+R7
+!i10b 1
+R16
+R31
+R32
+!i113 1
+R11
+R12
+Emooresequntial
+Z33 w1746185820
+R2
+R3
+!i122 32
+R0
+R29
+R30
+l0
+L4 1
+V>ndU3_g`UIL5GYoYBgE[`0
+!s100 7Cmgif7c0TizEhic:=S6n2
+R6
+32
+Z34 !s110 1746205941
+!i10b 1
+Z35 !s108 1746205941.000000
+R31
+R32
+!i113 1
+R11
+R12
+Aimplementation
+R2
+R3
+DEx4 work 14 mooresequntial 0 22 >ndU3_g`UIL5GYoYBgE[`0
+!i122 32
+l26
+L12 25
+VLmGPkV@GoMa]loVh[_jWX3
+!s100 mhk_A=NCHZbb?lN8_z^T10
+R6
+32
+R34
+!i10b 1
+R35
+R31
+R32
+!i113 1
+R11
+R12
+Etb_moore
+Z36 w1746210422
+R2
+R3
+!i122 71
+R0
+Z37 8D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/tb_moore.vhd
+Z38 FD:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/tb_moore.vhd
+l0
+L4 1
+V51nJ:b]XPT1z>C=T7fCGJ3
+!s100 eSPD>J]_lX1AWL4zzFeFN0
+R6
+32
+Z39 !s110 1746210431
+!i10b 1
+R16
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/tb_moore.vhd|
+Z41 !s107 D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/tb_moore.vhd|
+!i113 1
+R11
+R12
+Atest
+R2
+R3
+Z42 DEx4 work 8 tb_moore 0 22 51nJ:b]XPT1z>C=T7fCGJ3
+!i122 71
+l22
+Z43 L7 34
+VTIiSMJng`M<M]aHaOSk_l2
+!s100 o4zd8B>75XQ=f9UWoZ7eE1
+R6
+32
+R39
+!i10b 1
+R16
+R40
+R41
+!i113 1
+R11
+R12
