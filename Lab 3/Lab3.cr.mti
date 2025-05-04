@@ -6,29 +6,21 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity GatedDLatch
 -- Compiling architecture Implementation of GatedDLatch
 
+} {} {}} {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/mooreTB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/mooreTB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_moore
+-- Compiling architecture test of tb_moore
+
 } {} {}} {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/MainCircuit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/MainCircuit.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity mooreSequential
--- Compiling architecture Implementation of mooreSequential
-
-} {} {}} {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/MealyCiruit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/MealyCiruit.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mealySequential
--- Compiling architecture Implementation of mealySequential
-
-} {} {}} {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/mealy.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/mealy.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mealySequential
--- Compiling architecture Implementation of mealySequential
+-- Compiling entity mooreSequntial
+-- Compiling architecture Implementation of mooreSequntial
 
 } {} {}} {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/DFlipFlop.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/MyFiles/Engineering/Second Semester/Digital System Design II/CSED 28/Labs/Lab 3/DFlipFlop.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020

@@ -1,22 +1,25 @@
-LIBRARY ieee;
-USE ieee.std_logic_1164.ALL;
+library ieee;
+use ieee.std_logic_1164.all ;
 
-ENTITY GatedDLatch IS
-    PORT (
-        D : IN STD_LOGIC;
-        E : IN STD_LOGIC;
-        Q : BUFFER STD_LOGIC;
-        P : BUFFER STD_LOGIC
-    );
-END ENTITY GatedDLatch;
+entity GatedDLatch is 
+port
+(
+    D : in std_logic ;
+    E : in std_logic ;
+    Reset : in std_logic;
+    Q : buffer std_logic ;
+    P : buffer std_logic 
+) ;
+end entity GatedDLatch ;
 
-ARCHITECTURE Implementation OF GatedDLatch IS
-    SIGNAL S, R : STD_LOGIC;
+architecture Implementation of GatedDLatch is
+signal S,R : std_logic ; 
+begin  
+    R <= (not(D) and E) and not(RESET);  
+    S <= (D and E) and not(RESET);
+    Q <= '0' when RESET = '1' else R nor P ;
+    P <= '1' when RESET = '1' else Q nor S ;
 
-BEGIN
-    R <= NOT(D) AND E;
-    S <= D AND E;
-    Q <= R NOR P;
-    P <= Q NOR S;
+end architecture Implementation ;
 
-END ARCHITECTURE Implementation;
+

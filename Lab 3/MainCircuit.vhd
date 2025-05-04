@@ -1,41 +1,38 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 
-ENTITY mooreSequential IS PORT (
+ENTITY mooreSequntial IS PORT (
     X : IN STD_LOGIC;
+    Reset : IN STD_LOGIC;
     Z : OUT STD_LOGIC;
-    CLK : IN STD_LOGIC
+    CLk : IN STD_LOGIC
 );
 
-END mooreSequential;
+END mooreSequntial;
 
-ARCHITECTURE Implementation OF mooreSequential IS
+ARCHITECTURE Implementation OF mooreSequntial IS
 
     COMPONENT DFlipFlop
         PORT (
             D : IN STD_LOGIC;
             Clk : IN STD_LOGIC;
-            Q : BUFFER STD_LOGIC;
-            P : BUFFER STD_LOGIC
+            Reset : IN STD_LOGIC;
+            Q : INOUT STD_LOGIC;
+            P : INOUT STD_LOGIC
         );
     END COMPONENT;
 
     SIGNAL DA, DB, DC : STD_LOGIC := '0';
-    SIGNAL A, B, C : STD_LOGIC := '0';
-    SIGNAL P1, P2, P3 : STD_LOGIC := '0';
+    SIGNAL A, B, C : STD_LOGIC;
 
 BEGIN
 
-    FF1 : DFlipFlop PORT MAP(DA, CLK, A, P1);
-    FF2 : DFlipFlop PORT MAP(DB, CLK, B, P2);
-    FF3 : DFlipFlop PORT MAP(DC, CLK, C, P3);
-    
-    DA <= (NOT A AND B AND NOT X) OR (NOT A AND B AND C) OR (NOT A AND C AND X) OR (A AND NOT C) OR (A AND C AND NOT X);
-    
-    DB <= (A AND NOT C) OR (NOT C AND X) OR (A AND NOT B AND NOT X) OR (NOT A AND B AND C AND NOT X);
-    
-    DC <= (A AND NOT B AND C) OR (A AND C AND NOT X) OR (NOT A AND B AND X) OR (A AND B AND NOT C) OR (NOT A AND NOT B AND NOT C AND NOT X);
-    
+    FF1 : DFlipFLop PORT MAP(DA, CLk, Reset, A, OPEN);
+    FF2 : DFlipFLop PORT MAP(DB, CLK, Reset, B, OPEN);
+    FF3 : DFlipFLop PORT MAP(DC, CLK, reset, C, OPEN);
+    DA <= (NOT A AND B AND NOT X) OR (NOT A AND B AND C) OR (NOT A AND NOT B AND C AND X) OR (A AND NOT B AND C AND X) OR (B AND C AND NOT X);
+    DB <= (A AND NOT C AND NOT X) OR (B AND NOT C AND X) OR (A AND NOT B AND C) OR (NOT A AND B AND C AND NOT X) OR (NOT B AND C AND X);
+    DC <= NOT C;
     Z <= NOT A AND NOT B AND C;
 
-END implementation;
+END Implementation;

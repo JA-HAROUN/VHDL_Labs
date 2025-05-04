@@ -1,0 +1,39 @@
+library ieee;
+use ieee.std_logic_1164.all ;
+
+entity mealySequntial is port 
+(
+	X : in std_logic ;
+	Z : out STD_LOGIC ;
+	CLk : std_logic
+) ;
+
+end mealySequntial ;
+architecture Implementation of mealySequntial is 
+
+component DFlipFlop  
+port 
+(
+    D : in std_logic ;
+    Clk : in std_logic ;
+    Q : inout  std_logic ;
+    P : inout  std_logic
+) ;
+end component ;
+
+signal DA,DB,DC : STD_logic := '0' ;
+signal A,B,C : STD_LOGIC := '0' ;
+
+begin 
+
+FF1 :DFlipFLop  port map(DA,CLk,A,open) ;
+FF2 :DFlipFLop port map(DB,CLK,B,open) ;
+FF3 :DFlipFLop port map(DC,CLK,C,open) ;
+
+DA <= ( not A and B and not X ) or ( not A and B and C ) or ( not A and not B and not C and X ) or ( A and not B and C and X ) or (B and C and not X ) or (A and B and not C and X) ;
+
+DB <= (A and not C and not X) or (B and not C and X) or (A and not B and C) or (not A and B and C and not X) or (not B and C and X) ;
+DC <= not C ;
+Z <= (not X and not A and not B and not C) or (X and A and not B and C) ;
+
+end Implementation ;
